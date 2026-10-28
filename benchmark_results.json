@@ -1,0 +1,36 @@
+{
+  "benchmark_id": "T08",
+  "timestamp": "2026-10-28 18:25:39 UTC",
+  "platform": {
+    "system": "Windows",
+    "release": "11",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "python_version": "3.12.8",
+    "total_ram_gb": 15.71
+  },
+  "capture_file": {
+    "path": "C:\\IS project\\tests\\fixtures\\benchmark_large.pcap",
+    "filename": "benchmark_large.pcap",
+    "size_bytes": 555024,
+    "size_mb": 0.529,
+    "sha256": "4ba8f2a995497aa6893e853a7b4a3f4c85e0a2ca256043c57fb5d8c10eee5df6"
+  },
+  "performance": {
+    "packet_count": 5000,
+    "error_count": 0,
+    "duration_seconds": 1.513,
+    "throughput_packets_per_sec": 3304.7,
+    "throughput_mb_per_sec": 0.35,
+    "memory_usage_mb": 90.14,
+    "output_db_size_mb": 1.199
+  },
+  "protocol_breakdown": {
+    "tcp_count": 2000,
+    "udp_count": 2000,
+    "icmp_count": 1000,
+    "other_count": 0
+  },
+  "status": "PASS",
+  "acceptance_criterion": "Import finishes within agreed classroom benchmark (< 30s for 5,000 pkts)"
+}

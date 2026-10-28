@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest & test cache
+.pytest_cache/
+
+# Local SQLite databases & temporary WAL files
+*.sqlite-wal
+*.sqlite-shm
+traffic_analysis.sqlite
+
+# Temporary test downloads
+downloaded_test_export.csv
+step4_debug.png
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
